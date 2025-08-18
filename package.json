@@ -1,0 +1,31 @@
+{
+  "name": "ll2025",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "b": "npm run $1 --workspace=@ll2025/backend",
+    "b2": "echo \"Hi Medved\" $1",
+    "run-package-a": "npm run $1 --workspace=@ll2025/backend",
+    "dev-b": "npm run dev --workspace=@ll2025/backend",
+    "dev-w": "npm run dev --workspace=@ll2025/webapp",
+    "types-b": "npm run types --workspace=@ll2025/backend",
+    "types-w": "npm run types --workspace=@ll2025/webapp",
+    "types": "npm run types-b && npm run types-w",
+    "lint-b": "npm run lint --workspace=@ll2025/backend",
+    "lint-w": "npm run lint --workspace=@ll2025/webapp",
+    "lint": "npm run lint-b && npm run lint-w",
+    "prepare": "husky"
+  },
+  "workspaces": [
+    "backend",
+    "webapp"
+  ],
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5"
+  }
+}
