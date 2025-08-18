@@ -10,10 +10,12 @@ const ideas = [
 
 const trpc = initTRPC.create();
 
-const z: number = 'asdsad'
-console.info(z)
+const z: number = 2;
+console.info(z);
 
-if (Math.random()) console.info("sd");
+if (Math.random()) {
+  console.info('sd');
+}
 
 export const trpcRouter = trpc.router({
   getIdeas: trpc.procedure.query(() => {
