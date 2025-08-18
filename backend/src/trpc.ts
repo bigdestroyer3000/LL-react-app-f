@@ -10,8 +10,8 @@ const ideas = [
 
 const trpc = initTRPC.create();
 
-const x: number = 'asdsad'
-console.log(x)
+const y: number = 'asdsad'
+console.log(y)
 
 if (Math.random()) console.info("sd");
 
