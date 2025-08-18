@@ -1,5 +1,0 @@
- #!/bin/sh
-touch PreCommitHookRan
-
-npm run lint-staged
-npm run types
