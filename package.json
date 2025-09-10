@@ -15,7 +15,8 @@
     "lint-w": "npm run lint --workspace=@ll2025/webapp",
     "lint": "npm run lint-b && npm run lint-w",
     "lint-staged": "lint-staged",
-    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'"
+    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
+    "stylecheck": "npm run stylecheck --workspace=@ll2025/webapp"
   },
   "workspaces": [
     "backend",
