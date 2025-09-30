@@ -9,5 +9,3 @@ export const zCreateIdeaTrpcInput = z.object({
   description: z.string().min(1),
   text: z.string().min(100, 'Text should be at least 100 characters long')
 })
-
-export const zCreateIdeaTrpcInput2 = 'asdsad';
