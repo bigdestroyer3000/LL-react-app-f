@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "lodash": "^4.17.21",
-    "zod": "^4.0.17"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
